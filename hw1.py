@@ -6,7 +6,7 @@ class Portfolio(object):
     def __init__(self):
         self.cash = 0.00
         self.stock = {}
-        self.mutual_funds = {}
+        self.mutual_funds = {} 
         self.history = 'Your portfolio is initialized successfully! \n'
 
     # Cash related functions:
